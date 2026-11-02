@@ -2,7 +2,7 @@
 
 `workflow-token.txt` is the local secret consumed by the submission script.
 
-For each authorized workstation:
+For each authorized Codex or Claude Code workstation:
 
 1. Copy `workflow-token.example.txt` to `workflow-token.txt` if the file is absent.
 2. Replace the placeholder with the current token on a single line, without quotes.

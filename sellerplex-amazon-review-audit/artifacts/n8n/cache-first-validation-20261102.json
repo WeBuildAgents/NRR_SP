@@ -1,0 +1,46 @@
+{
+  "validated_at": "2026-11-02",
+  "workflow_id": "pAeVOR9Udi1pc9Gp",
+  "asin": "B00TRFLWFG",
+  "exact_historical_window": {
+    "since_date": "2025-10-27",
+    "until_date": "2026-10-27",
+    "stored_reviews": 8,
+    "stars_from_history": [1, 2, 3],
+    "stars_to_collect": [],
+    "coverage_states": {
+      "1": "AMAZON_EXHAUSTED_BELOW_BASELINE",
+      "2": "AMAZON_EXHAUSTED_BELOW_BASELINE",
+      "3": "AMAZON_EXHAUSTED_BELOW_BASELINE"
+    },
+    "review_page_requests_required": 0,
+    "ingestion_calls_required": 0,
+    "classification_calls_required": 0
+  },
+  "partially_extended_window": {
+    "since_date": "2025-10-27",
+    "until_date": "2026-11-02",
+    "stored_reviews_reused": 8,
+    "stars_to_collect": [1, 2, 3],
+    "known_review_ids_by_star": {
+      "1": 4,
+      "2": 2,
+      "3": 2
+    }
+  },
+  "report_smoke_test": {
+    "reviews_audited": 8,
+    "action_now": 1,
+    "secondary_review": 1,
+    "no_action": 6,
+    "one_star_estimate_floor": 4,
+    "no_action_full_text_present": true,
+    "no_action_links_present": true,
+    "sellerplex_html_generated": true
+  },
+  "cost": {
+    "browser_usd": 0,
+    "ai_classification_usd": 0,
+    "note": "Validation used authenticated n8n/Postgres history and local report generation only."
+  }
+}
