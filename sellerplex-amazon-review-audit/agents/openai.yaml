@@ -1,0 +1,9 @@
+interface:
+  display_name: "SellerPlex Amazon Review Audit"
+  short_description: "Authenticated negative-review compliance audit"
+  brand_color: "#15264C"
+  default_prompt: "Use $sellerplex-amazon-review-audit to collect and audit Amazon reviews for the requested ASIN, stars, and date range."
+
+policy:
+  allow_implicit_invocation: true
+
